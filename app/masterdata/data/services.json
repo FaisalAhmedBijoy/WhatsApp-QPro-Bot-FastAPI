@@ -1,0 +1,18 @@
+{
+  "_comment": "Service menu tree, mirroring the Queue Pro kiosk 'Select an Option' screen. A node is either a 'page' (opens a sub-menu, like 'Root page 2') or a 'service' (issues a token). Add services here - no code changes needed. 'code' is what gets sent to the Token API. Sub-page contents are placeholders until the real ones are known.",
+  "services": [
+    {"id": "account-opening", "type": "service", "label": "Account Opening", "code": "ACCOUNT_OPENING"},
+    {
+      "id": "more-services", "type": "page", "label": "More Services", "source_label": "Root page 2",
+      "children": [
+        {"id": "card-services", "type": "service", "label": "Card Services", "code": "CARD_SERVICES"},
+        {"id": "remittance", "type": "service", "label": "Remittance", "code": "REMITTANCE"},
+        {"id": "customer-service", "type": "service", "label": "Customer Service", "code": "CUSTOMER_SERVICE"}
+      ]
+    },
+    {"id": "cash-deposit", "type": "service", "label": "Cash Deposit", "code": "CASH_DEPOSIT"},
+    {"id": "account-statement", "type": "service", "label": "Account Statement", "code": "ACCOUNT_STATEMENT"},
+    {"id": "withdrawal", "type": "service", "label": "Withdrawal", "code": "CASH_WITHDRAWAL"},
+    {"id": "loan-application", "type": "service", "label": "Loan Application", "code": "LOAN_APPLICATION", "source_label": "Loan Application-m"}
+  ]
+}

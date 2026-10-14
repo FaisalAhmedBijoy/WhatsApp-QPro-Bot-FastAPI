@@ -1,0 +1,621 @@
+{
+  "_comment": "DEMO DATA ONLY - replace with the branch list from Queue Pro. Branch codes are fictional.",
+  "divisions": [
+    {
+      "id": "barishal",
+      "name": "Barishal",
+      "districts": [
+        {
+          "id": "barguna",
+          "name": "Barguna",
+          "branches": []
+        },
+        {
+          "id": "barishal",
+          "name": "Barishal",
+          "branches": [
+            {
+              "code": "BR001",
+              "name": "Barishal Branch",
+              "address": "Barishal, Barishal"
+            }
+          ]
+        },
+        {
+          "id": "bhola",
+          "name": "Bhola",
+          "branches": []
+        },
+        {
+          "id": "jhalokati",
+          "name": "Jhalokati",
+          "branches": []
+        },
+        {
+          "id": "patuakhali",
+          "name": "Patuakhali",
+          "branches": []
+        },
+        {
+          "id": "pirojpur",
+          "name": "Pirojpur",
+          "branches": []
+        }
+      ]
+    },
+    {
+      "id": "chattogram",
+      "name": "Chattogram",
+      "districts": [
+        {
+          "id": "bandarban",
+          "name": "Bandarban",
+          "branches": []
+        },
+        {
+          "id": "brahmanbaria",
+          "name": "Brahmanbaria",
+          "branches": []
+        },
+        {
+          "id": "chandpur",
+          "name": "Chandpur",
+          "branches": []
+        },
+        {
+          "id": "chattogram",
+          "name": "Chattogram",
+          "branches": [
+            {
+              "code": "BR002",
+              "name": "Agrabad Branch",
+              "address": "Agrabad, Chattogram"
+            },
+            {
+              "code": "BR003",
+              "name": "O.R. Nizam Road Branch",
+              "address": "O.R. Nizam Road, Chattogram"
+            },
+            {
+              "code": "BR004",
+              "name": "Halishahar Branch",
+              "address": "Halishahar, Chattogram"
+            }
+          ]
+        },
+        {
+          "id": "cox-s-bazar",
+          "name": "Cox's Bazar",
+          "branches": [
+            {
+              "code": "BR005",
+              "name": "Cox's Bazar Branch",
+              "address": "Cox's Bazar, Cox's Bazar"
+            }
+          ]
+        },
+        {
+          "id": "cumilla",
+          "name": "Cumilla",
+          "branches": [
+            {
+              "code": "BR006",
+              "name": "Cumilla Branch",
+              "address": "Cumilla, Cumilla"
+            }
+          ]
+        },
+        {
+          "id": "feni",
+          "name": "Feni",
+          "branches": [
+            {
+              "code": "BR007",
+              "name": "Feni Branch",
+              "address": "Feni, Feni"
+            }
+          ]
+        },
+        {
+          "id": "khagrachhari",
+          "name": "Khagrachhari",
+          "branches": []
+        },
+        {
+          "id": "lakshmipur",
+          "name": "Lakshmipur",
+          "branches": []
+        },
+        {
+          "id": "noakhali",
+          "name": "Noakhali",
+          "branches": [
+            {
+              "code": "BR008",
+              "name": "Noakhali Branch",
+              "address": "Noakhali, Noakhali"
+            }
+          ]
+        },
+        {
+          "id": "rangamati",
+          "name": "Rangamati",
+          "branches": []
+        }
+      ]
+    },
+    {
+      "id": "dhaka",
+      "name": "Dhaka",
+      "districts": [
+        {
+          "id": "dhaka",
+          "name": "Dhaka",
+          "branches": [
+            {
+              "code": "BR009",
+              "name": "Gulshan Branch",
+              "address": "Gulshan, Dhaka"
+            },
+            {
+              "code": "BR010",
+              "name": "Banani Branch",
+              "address": "Banani, Dhaka"
+            },
+            {
+              "code": "BR011",
+              "name": "Motijheel Branch",
+              "address": "Motijheel, Dhaka"
+            },
+            {
+              "code": "BR012",
+              "name": "Dhanmondi Branch",
+              "address": "Dhanmondi, Dhaka"
+            },
+            {
+              "code": "BR013",
+              "name": "Uttara Branch",
+              "address": "Uttara, Dhaka"
+            },
+            {
+              "code": "BR014",
+              "name": "Mirpur Branch",
+              "address": "Mirpur, Dhaka"
+            },
+            {
+              "code": "BR015",
+              "name": "Mohakhali Branch",
+              "address": "Mohakhali, Dhaka"
+            },
+            {
+              "code": "BR016",
+              "name": "Bashundhara Branch",
+              "address": "Bashundhara, Dhaka"
+            },
+            {
+              "code": "BR017",
+              "name": "Shantinagar Branch",
+              "address": "Shantinagar, Dhaka"
+            },
+            {
+              "code": "BR018",
+              "name": "Elephant Road Branch",
+              "address": "Elephant Road, Dhaka"
+            },
+            {
+              "code": "BR019",
+              "name": "Moghbazar Branch",
+              "address": "Moghbazar, Dhaka"
+            },
+            {
+              "code": "BR020",
+              "name": "Malibagh Branch",
+              "address": "Malibagh, Dhaka"
+            },
+            {
+              "code": "BR021",
+              "name": "Panthapath Branch",
+              "address": "Panthapath, Dhaka"
+            },
+            {
+              "code": "BR022",
+              "name": "Tejgaon Branch",
+              "address": "Tejgaon, Dhaka"
+            }
+          ]
+        },
+        {
+          "id": "faridpur",
+          "name": "Faridpur",
+          "branches": [
+            {
+              "code": "BR023",
+              "name": "Faridpur Branch",
+              "address": "Faridpur, Faridpur"
+            }
+          ]
+        },
+        {
+          "id": "gazipur",
+          "name": "Gazipur",
+          "branches": [
+            {
+              "code": "BR024",
+              "name": "Gazipur Branch",
+              "address": "Gazipur, Gazipur"
+            }
+          ]
+        },
+        {
+          "id": "gopalganj",
+          "name": "Gopalganj",
+          "branches": [
+            {
+              "code": "BR025",
+              "name": "Gopalganj Branch",
+              "address": "Gopalganj, Gopalganj"
+            }
+          ]
+        },
+        {
+          "id": "kishoreganj",
+          "name": "Kishoreganj",
+          "branches": [
+            {
+              "code": "BR026",
+              "name": "Kishoreganj Branch",
+              "address": "Kishoreganj, Kishoreganj"
+            }
+          ]
+        },
+        {
+          "id": "madaripur",
+          "name": "Madaripur",
+          "branches": [
+            {
+              "code": "BR027",
+              "name": "Madaripur Branch",
+              "address": "Madaripur, Madaripur"
+            }
+          ]
+        },
+        {
+          "id": "manikganj",
+          "name": "Manikganj",
+          "branches": [
+            {
+              "code": "BR028",
+              "name": "Manikganj Branch",
+              "address": "Manikganj, Manikganj"
+            }
+          ]
+        },
+        {
+          "id": "munshiganj",
+          "name": "Munshiganj",
+          "branches": [
+            {
+              "code": "BR029",
+              "name": "Munshiganj Branch",
+              "address": "Munshiganj, Munshiganj"
+            }
+          ]
+        },
+        {
+          "id": "narayanganj",
+          "name": "Narayanganj",
+          "branches": [
+            {
+              "code": "BR030",
+              "name": "Narayanganj Branch",
+              "address": "Narayanganj, Narayanganj"
+            }
+          ]
+        },
+        {
+          "id": "narsingdi",
+          "name": "Narsingdi",
+          "branches": [
+            {
+              "code": "BR031",
+              "name": "Narsingdi Branch",
+              "address": "Narsingdi, Narsingdi"
+            }
+          ]
+        },
+        {
+          "id": "rajbari",
+          "name": "Rajbari",
+          "branches": [
+            {
+              "code": "BR032",
+              "name": "Rajbari Branch",
+              "address": "Rajbari, Rajbari"
+            }
+          ]
+        },
+        {
+          "id": "shariatpur",
+          "name": "Shariatpur",
+          "branches": [
+            {
+              "code": "BR033",
+              "name": "Shariatpur Branch",
+              "address": "Shariatpur, Shariatpur"
+            }
+          ]
+        },
+        {
+          "id": "tangail",
+          "name": "Tangail",
+          "branches": [
+            {
+              "code": "BR034",
+              "name": "Tangail Branch",
+              "address": "Tangail, Tangail"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "khulna",
+      "name": "Khulna",
+      "districts": [
+        {
+          "id": "bagerhat",
+          "name": "Bagerhat",
+          "branches": []
+        },
+        {
+          "id": "chuadanga",
+          "name": "Chuadanga",
+          "branches": []
+        },
+        {
+          "id": "jashore",
+          "name": "Jashore",
+          "branches": [
+            {
+              "code": "BR035",
+              "name": "Jashore Branch",
+              "address": "Jashore, Jashore"
+            }
+          ]
+        },
+        {
+          "id": "jhenaidah",
+          "name": "Jhenaidah",
+          "branches": []
+        },
+        {
+          "id": "khulna",
+          "name": "Khulna",
+          "branches": [
+            {
+              "code": "BR036",
+              "name": "Khulna Branch",
+              "address": "Khulna, Khulna"
+            }
+          ]
+        },
+        {
+          "id": "kushtia",
+          "name": "Kushtia",
+          "branches": []
+        },
+        {
+          "id": "magura",
+          "name": "Magura",
+          "branches": []
+        },
+        {
+          "id": "meherpur",
+          "name": "Meherpur",
+          "branches": []
+        },
+        {
+          "id": "narail",
+          "name": "Narail",
+          "branches": []
+        },
+        {
+          "id": "satkhira",
+          "name": "Satkhira",
+          "branches": []
+        }
+      ]
+    },
+    {
+      "id": "mymensingh",
+      "name": "Mymensingh",
+      "districts": [
+        {
+          "id": "jamalpur",
+          "name": "Jamalpur",
+          "branches": []
+        },
+        {
+          "id": "mymensingh",
+          "name": "Mymensingh",
+          "branches": [
+            {
+              "code": "BR037",
+              "name": "Mymensingh Branch",
+              "address": "Mymensingh, Mymensingh"
+            }
+          ]
+        },
+        {
+          "id": "netrokona",
+          "name": "Netrokona",
+          "branches": []
+        },
+        {
+          "id": "sherpur",
+          "name": "Sherpur",
+          "branches": []
+        }
+      ]
+    },
+    {
+      "id": "rajshahi",
+      "name": "Rajshahi",
+      "districts": [
+        {
+          "id": "bogura",
+          "name": "Bogura",
+          "branches": [
+            {
+              "code": "BR038",
+              "name": "Bogura Branch",
+              "address": "Bogura, Bogura"
+            }
+          ]
+        },
+        {
+          "id": "chapai-nawabganj",
+          "name": "Chapai Nawabganj",
+          "branches": []
+        },
+        {
+          "id": "joypurhat",
+          "name": "Joypurhat",
+          "branches": []
+        },
+        {
+          "id": "naogaon",
+          "name": "Naogaon",
+          "branches": []
+        },
+        {
+          "id": "natore",
+          "name": "Natore",
+          "branches": []
+        },
+        {
+          "id": "pabna",
+          "name": "Pabna",
+          "branches": []
+        },
+        {
+          "id": "rajshahi",
+          "name": "Rajshahi",
+          "branches": [
+            {
+              "code": "BR039",
+              "name": "Shaheb Bazar Branch",
+              "address": "Shaheb Bazar, Rajshahi"
+            }
+          ]
+        },
+        {
+          "id": "sirajganj",
+          "name": "Sirajganj",
+          "branches": []
+        }
+      ]
+    },
+    {
+      "id": "rangpur",
+      "name": "Rangpur",
+      "districts": [
+        {
+          "id": "dinajpur",
+          "name": "Dinajpur",
+          "branches": [
+            {
+              "code": "BR040",
+              "name": "Dinajpur Branch",
+              "address": "Dinajpur, Dinajpur"
+            }
+          ]
+        },
+        {
+          "id": "gaibandha",
+          "name": "Gaibandha",
+          "branches": []
+        },
+        {
+          "id": "kurigram",
+          "name": "Kurigram",
+          "branches": []
+        },
+        {
+          "id": "lalmonirhat",
+          "name": "Lalmonirhat",
+          "branches": []
+        },
+        {
+          "id": "nilphamari",
+          "name": "Nilphamari",
+          "branches": []
+        },
+        {
+          "id": "panchagarh",
+          "name": "Panchagarh",
+          "branches": []
+        },
+        {
+          "id": "rangpur",
+          "name": "Rangpur",
+          "branches": [
+            {
+              "code": "BR041",
+              "name": "Rangpur Branch",
+              "address": "Rangpur, Rangpur"
+            }
+          ]
+        },
+        {
+          "id": "thakurgaon",
+          "name": "Thakurgaon",
+          "branches": []
+        }
+      ]
+    },
+    {
+      "id": "sylhet",
+      "name": "Sylhet",
+      "districts": [
+        {
+          "id": "habiganj",
+          "name": "Habiganj",
+          "branches": []
+        },
+        {
+          "id": "moulvibazar",
+          "name": "Moulvibazar",
+          "branches": [
+            {
+              "code": "BR042",
+              "name": "Moulvibazar Branch",
+              "address": "Moulvibazar, Moulvibazar"
+            }
+          ]
+        },
+        {
+          "id": "sunamganj",
+          "name": "Sunamganj",
+          "branches": []
+        },
+        {
+          "id": "sylhet",
+          "name": "Sylhet",
+          "branches": [
+            {
+              "code": "BR043",
+              "name": "Zindabazar Branch",
+              "address": "Zindabazar, Sylhet"
+            },
+            {
+              "code": "BR044",
+              "name": "Amberkhana Branch",
+              "address": "Amberkhana, Sylhet"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
